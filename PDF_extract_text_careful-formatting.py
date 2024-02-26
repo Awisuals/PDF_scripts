@@ -33,6 +33,6 @@ def extract_and_format_text(pdf_path):
     return ''.join(formatted_text)
 
 # Example usage
-pdf_path = r"C:\Users\anter\Documents\42\harrasteet\DnD\Adventures\contents\c-DnD_Essentials_Kit.pdf"  # Path to your PDF file
+pdf_path = r"C:\Users\user\PDF.pdf"  # Path to your PDF file
 formatted_text = extract_and_format_text(pdf_path)
 print(formatted_text)

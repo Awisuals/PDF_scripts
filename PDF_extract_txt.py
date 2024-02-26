@@ -104,47 +104,11 @@ def process_pdf_to_txt(pdf_path, output_path):
 
 # process_pdf_to_txt_with_autocorrect('input.pdf', 'output_with_autocorrect.txt')
 
-
-
-input_pdf = r"C:\Users\anter\Documents\42\harrasteet\DnD\Adventures\contents\c-DnD_Out_of_the_Abyss.pdf"
-output_txt1 = r"C:\Users\anter\Documents\42\harrasteet\DnD\Adventures\c-DnD_Out_of_the_Abyss.txt"
+input_pdf = r"C:\Users\User\pdf.pdf"
+output_txt1 = r"C:\Users\User\pdf.txt"
 output_txt2 = output_txt1
 output_txt3 = output_txt2
-keywords = ["Welcome"
-, "Introduction"
-, "Chapter 1"
-, "Chapter 2"
-, "Chapter 3"
-, "Chapter 4"
-, "Chapter 5"
-, "Chapter 6"
-, "Chapter 7"
-, "Chapter 8"
-, "Chapter 9"
-, "Chapter 10"
-, "Chapter 11"
-, "Ch 1:"
-, "Ch 2:"
-, "Ch 3:"
-, "Ch 4:"
-, "Ch 5:"
-, "Ch 6:"
-, "Ch 7:"
-, "Ch 8:"
-, "Appendix"
-, "Appendix A"
-, "Appendix B"
-, "Appendix C"
-, "Appendix D"
-, "Appendix E"
-, "Appendix F"
-, "Appendix G"
-, "App A:"
-, "App B:"
-, "App C:"
-, "App D:"
-, "App E:"
-, "App F:"]
+keywords = ["keyword1", "keyword2", "keyword3"]
 
 print(extract_text(input_pdf))
 

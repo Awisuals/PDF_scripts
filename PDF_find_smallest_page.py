@@ -21,7 +21,6 @@ def find_smallest_page_size(pdf_path):
         return smallest_size_mm[0]
 
 # Replace 'your_pdf_file.pdf' with the path to your PDF file
-pdf_path = r'C:\Users\anter\Documents\42\harrasteet\DnD\DnD5e_WotC_Dungeon_Masters_Guide.pdf'
+pdf_path = r'C:\Users\User\pdf.pdf'
 smallest_page_size = find_smallest_page_size(pdf_path)
 print(f"The smallest page size is in millimeters: {smallest_page_size}")
-
