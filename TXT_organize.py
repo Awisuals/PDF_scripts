@@ -20,6 +20,6 @@ def organize_and_output_final_text(input_path, final_output_path):
     with open(final_output_path, 'w') as file:
         file.writelines(lines_sorted)
         
-input_path = r"C:\Users\User\text.txt"
+input_path = r"C:\Users\anter\Documents\42\Harrasteet\dnd\5e_AiME_players_guide.txt"
 output_path = input_path
 organize_and_output_final_text(input_path, output_path)
